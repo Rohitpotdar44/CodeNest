@@ -19,7 +19,7 @@ import {
 } from "react-icons/ri"
 import RenameView from "./RenameView"
 import useResponsive from "@/hooks/useResponsive"
-
+import '../../styles/global.css'
 function FileStructureView() {
     const {
         fileStructure,

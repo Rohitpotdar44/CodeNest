@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-
+import '../../styles/global.css'
 function ConnectionStatusPage() {
     return (
         <div className="min-h-screen bg-gradient-to-br from-dark via-darkHover to-darkSecondary flex items-center justify-center p-4">

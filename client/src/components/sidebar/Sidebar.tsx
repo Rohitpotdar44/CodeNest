@@ -13,7 +13,7 @@ import cn from "classnames"
 import { Tooltip } from 'react-tooltip'
 import { useState } from 'react'
 import { tooltipStyles } from "./tooltipStyles"
-
+import '../../styles/global.css'
 function Sidebar() {
     const {
         activeView,

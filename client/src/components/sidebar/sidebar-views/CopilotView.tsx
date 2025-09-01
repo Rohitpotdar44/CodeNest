@@ -8,7 +8,7 @@ import { LuClipboardPaste, LuCopy, LuRepeat } from "react-icons/lu"
 import ReactMarkdown from "react-markdown"
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism"
-
+import '../../../styles/global.css'
 function CopilotView() {
     const {socket} = useSocket()
     const { viewHeight } = useResponsive()

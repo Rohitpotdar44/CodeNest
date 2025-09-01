@@ -1,7 +1,7 @@
 import { useAppContext } from "@/context/AppContext"
 import { useChatRoom } from "@/context/ChatContext"
 import { SyntheticEvent, useEffect, useRef } from "react"
-
+import '../../styles/global.css'
 function ChatList() {
     const {
         messages,

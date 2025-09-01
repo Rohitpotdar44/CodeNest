@@ -1,7 +1,7 @@
 import { useFileSystem } from "@/context/FileContext"
 import { FormEvent, useCallback, useEffect, useRef, useState } from "react"
 import toast from "react-hot-toast"
-
+import '../../styles/global.css'
 interface RenameViewProps {
     id: string
     preName: string

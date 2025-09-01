@@ -5,7 +5,7 @@ import { editorFonts } from "@/resources/Fonts"
 import { editorThemes } from "@/resources/Themes"
 import { langNames } from "@uiw/codemirror-extensions-langs"
 import { ChangeEvent, useEffect } from "react"
-
+import '../../../styles/global.css'
 function SettingsView() {
     const {
         theme,

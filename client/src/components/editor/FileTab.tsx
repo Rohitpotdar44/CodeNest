@@ -7,7 +7,7 @@ import { useEffect, useRef } from "react"
 import customMapping from "@/utils/customMapping"
 import { useSettings } from "@/context/SettingContext"
 import langMap from "lang-map"
-
+import '../../styles/global.css'
 function FileTab() {
     const {
         openFiles,

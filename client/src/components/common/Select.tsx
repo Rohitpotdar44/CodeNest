@@ -1,6 +1,6 @@
 import { ChangeEvent } from "react"
 import { PiCaretDownBold } from "react-icons/pi"
-
+import '../../styles/global.css'
 interface SelectProps {
     onChange: (e: ChangeEvent<HTMLSelectElement>) => void
     value: string

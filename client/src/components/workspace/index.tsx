@@ -3,7 +3,7 @@ import useResponsive from "@/hooks/useResponsive"
 import { ACTIVITY_STATE } from "@/types/app"
 import DrawingEditor from "../drawing/DrawingEditor"
 import EditorComponent from "../editor/EditorComponent"
-
+import '../../styles/global.css'
 function WorkSpace() {
     const { viewHeight } = useResponsive()
     const { activityState } = useAppContext()

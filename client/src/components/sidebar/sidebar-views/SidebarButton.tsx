@@ -4,7 +4,7 @@ import { VIEWS } from "@/types/view"
 import { useState } from "react"
 import { Tooltip } from "react-tooltip"
 import { buttonStyles, tooltipStyles } from "../tooltipStyles"
-
+import '../../../styles/global.css'
 interface ViewButtonProps {
     viewName: VIEWS
     icon: JSX.Element

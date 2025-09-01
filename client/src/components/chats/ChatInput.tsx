@@ -7,7 +7,7 @@ import { formatDate } from "@/utils/formateDate"
 import { FormEvent, useRef } from "react"
 import { LuSendHorizonal } from "react-icons/lu"
 import { v4 as uuidV4 } from "uuid"
-
+import '../../styles/global.css'
 function ChatInput() {
     const { currentUser } = useAppContext()
     const { socket } = useSocket()

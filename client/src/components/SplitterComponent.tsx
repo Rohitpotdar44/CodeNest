@@ -3,7 +3,7 @@ import useLocalStorage from "@/hooks/useLocalStorage"
 import useWindowDimensions from "@/hooks/useWindowDimensions"
 import { ReactNode } from "react"
 import Split from "react-split"
-
+import '../styles/global.css'
 function SplitterComponent({ children }: { children: ReactNode }) {
     const { isSidebarOpen } = useViews()
     const { isMobile, width } = useWindowDimensions()

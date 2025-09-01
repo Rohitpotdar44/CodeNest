@@ -10,7 +10,7 @@ import { SocketEvent } from "@/types/socket"
 import { USER_STATUS, User } from "@/types/user"
 import { useEffect } from "react"
 import { useLocation, useNavigate, useParams } from "react-router-dom"
-
+import '../styles/global.css'
 function EditorPage() {
     // track user activity
     useUserActivity()

@@ -3,7 +3,7 @@ import useResponsive from "@/hooks/useResponsive"
 import cn from "classnames"
 import Editor from "./Editor"
 import FileTab from "./FileTab"
-
+import '../../styles/global.css'
 function EditorComponent() {
     const { openFiles } = useFileSystem()
     const { minHeightReached } = useResponsive()

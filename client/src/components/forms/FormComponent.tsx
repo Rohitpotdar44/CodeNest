@@ -6,7 +6,7 @@ import { ChangeEvent, FormEvent, useEffect, useRef } from "react"
 import { toast } from "react-hot-toast"
 import { useLocation, useNavigate } from "react-router-dom"
 import { v4 as uuidv4 } from "uuid"
-
+import '../../styles/global.css'
 const FormComponent = () => {
     const location = useLocation()
     const { currentUser, setCurrentUser, status, setStatus } = useAppContext()

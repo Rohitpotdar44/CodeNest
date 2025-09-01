@@ -1,7 +1,7 @@
 import ChatInput from "@/components/chats/ChatInput"
 import ChatList from "@/components/chats/ChatList"
 import useResponsive from "@/hooks/useResponsive"
-
+import '../../../styles/global.css'
 const ChatsView = () => {
     const { viewHeight } = useResponsive()
 

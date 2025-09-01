@@ -1,5 +1,5 @@
 import FormComponent from "@/components/forms/FormComponent"
-
+import '../styles/global.css'
 // import Footer from "@/components/common/Footer";
 
 function HomePage() {

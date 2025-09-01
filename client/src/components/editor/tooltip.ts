@@ -1,7 +1,7 @@
 import { RemoteUser } from "@/types/user"
 import { StateField } from "@codemirror/state"
 import { EditorView, showTooltip } from "@codemirror/view"
-
+import '../../styles/global.css'
 export function tooltipField(users: RemoteUser[]) {
     return StateField.define({
         create: () => getCursorTooltips(users),

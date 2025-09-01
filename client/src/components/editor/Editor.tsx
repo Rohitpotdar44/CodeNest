@@ -16,7 +16,7 @@ import { useEffect, useMemo, useState } from "react"
 import toast from "react-hot-toast"
 import { cursorTooltipBaseTheme, tooltipField } from "./tooltip"
 import { EditorView } from "@codemirror/view"
-
+import '../../styles/global.css'
 function Editor() {
     const { users, currentUser } = useAppContext()
     const { activeFile, setActiveFile } = useFileSystem()

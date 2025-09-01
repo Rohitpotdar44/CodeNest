@@ -8,7 +8,7 @@ import { GoSignOut } from "react-icons/go"
 import { IoShareOutline } from "react-icons/io5"
 import { LuCopy } from "react-icons/lu"
 import { useNavigate } from "react-router-dom"
-
+import '../../../styles/global.css'
 function UsersView() {
     const navigate = useNavigate()
     const { viewHeight } = useResponsive()

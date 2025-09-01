@@ -4,7 +4,7 @@ import useWindowDimensions from "@/hooks/useWindowDimensions"
 import { SocketEvent } from "@/types/socket"
 import { useCallback, useEffect } from "react"
 import { HistoryEntry, RecordsDiff, TLRecord, Tldraw, useEditor } from "tldraw"
-
+import '../../styles/global.css'
 function DrawingEditor() {
     const { isMobile } = useWindowDimensions()
 

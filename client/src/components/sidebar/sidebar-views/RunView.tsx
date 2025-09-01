@@ -4,7 +4,7 @@ import { ChangeEvent } from "react"
 import toast from "react-hot-toast"
 import { LuCopy } from "react-icons/lu"
 import { PiCaretDownBold } from "react-icons/pi"
-
+import '../../../styles/global.css'
 function RunView() {
     const { viewHeight } = useResponsive()
     const {
